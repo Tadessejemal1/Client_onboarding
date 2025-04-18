@@ -1,13 +1,67 @@
-# React + Vite
+# 🚀 Client_onboarding
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal **React + Vite** setup with HMR (Hot Module Replacement), ESLint, and plugin support. This project is great as a starter template for scalable front-end applications.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧰 Tech Stack
 
-## Expanding the ESLint configuration
+- **React** – for building UI
+- **Vite** – fast development build tool
+- **ESLint** – for linting and code quality
+- **@vitejs/plugin-react** – official Vite plugin using Babel
+- **@vitejs/plugin-react-swc** (optional) – faster alternative using SWC
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Client_onboarding
+---
+
+## 📦 Getting Started
+
+Follow these steps to get the app up and running on your local machine.
+
+### ✅ Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js (v16 or later) → https://nodejs.org/
+- npm (comes with Node.js) or yarn
+
+---
+
+### 📥 Clone the Repository
+
+```bash
+git clone https://github.com/Tadessejemal1/Client_onboarding.git
+cd Client_onboarding
+
+```
+
+### 📥 Run the Development Server
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### 📥 Running the App
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+##### Open http://localhost:5173 in your browser.
+
+### Form Features
+- Multi-select LLM model selection
+
+- Auto-execution option
+
+- Responsive design with Material-UI
+
+- Proper secret management
+
+- Form validation
+
+- Airtable integration
